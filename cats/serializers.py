@@ -95,5 +95,3 @@ class OwnerSerializer(serializers.ModelSerializer):
         model = Owner
         fields = ('first_name', 'last_name', 'cats')
 
-
-
